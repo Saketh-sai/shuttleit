@@ -83,6 +83,9 @@ app.get('/users', function (req, res) {
 
 
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3001 ;
+}
 
-
-var server=app.listen(3001,function() {});
+var server=app.listen(port,function() {});
