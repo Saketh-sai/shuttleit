@@ -5,9 +5,117 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align : center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    float: left;
+	margin-left : 35px;
+}
+
+.jumbo{
+	padding-top : 2px !important;
+	overflow : auto;
+}
+
+p.st{
+	font-size:10px;
+	margin-bottom: 0px;
+	
+}
+
+
+p.et{
+	font-size:10px;
+	
+	margin-bottom : 0px;
+	
+}
+
+span.dt{
+	float: right;
+}
+
+.avail{
+	cursor : no-drop;
+	background-color :  #b8b894;
+	
+}
+
+.avail:active{
+	
+	pointer-events : none;
+	
+}
+
+.booked{
+	cursor : pointer;
+	background-color : #85e085;
+}
+
+
+div.booked:hover{
+	
+	background-color : #5cd65c !important;
+}
+
+.submitbtn{ 	display : block !important; 	left : 49%; 	position: absolute; }
+
+
+.myClass{
+	display : none;
+	background-color : orange;
+	
+}
+
+p.st.mg {
+    margin-bottom: 5px;
+}
+
+.red{
+	
+	color : red;
+}
+
+.green{
+	
+	color : green;
+}
+.ld{
+    position: fixed;
+    left: 44%;
+    top: 20%;
+}	
+
+.hide{
+	display : none;
+	
+}
+
+.show{
+	
+	display : block
+	
+}
+
+.blur{
+	background-color: aliceblue;
+    z-index: 9999;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(2px);
+	
+	
 }
